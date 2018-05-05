@@ -1,0 +1,16 @@
+PODS:
+  - iOSSnapshotTestCase (3.0.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 3.0.0)
+  - iOSSnapshotTestCase/Core (3.0.0)
+  - iOSSnapshotTestCase/SwiftSupport (3.0.0):
+    - iOSSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - iOSSnapshotTestCase
+
+SPEC CHECKSUMS:
+  iOSSnapshotTestCase: 23984ffe05289728d646cbb6a7a10b4fb1c93440
+
+PODFILE CHECKSUM: 0075ca6cd846317abfec6581785323bdab40aab7
+
+COCOAPODS: 1.4.0
