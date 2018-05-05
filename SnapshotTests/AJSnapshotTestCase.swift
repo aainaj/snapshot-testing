@@ -12,7 +12,8 @@ class AJSnapshotTestCase: FBSnapshotTestCase {
     override func setUp() {
         super.setUp()
         isDeviceAgnostic = true
-//        usesDrawViewHierarchyInRect = true
+    //  Set usesDrawViewHierarchyInRect when you are testing UIVisualEffects or UIAppearance
+    //  usesDrawViewHierarchyInRect = true
         recordMode = recordingMode
     }
     
@@ -21,7 +22,8 @@ class AJSnapshotTestCase: FBSnapshotTestCase {
     }
     
     func verify(view: UIView) {
-//        FBSnapshotVerifyView(view, identifier: "teaser", tolerance: 2)
+        // set tolerance to x if you don't care about x% difference in snapshots
+       // FBSnapshotVerifyView(view, identifier: "teaser", tolerance: 2)
         FBSnapshotVerifyView(view, identifier: "teaser")
     }
     
