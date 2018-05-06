@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     func setConstraints() {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
-        titleLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 16).isActive = true
+        titleLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 32).isActive = true
         titleLabel.leadingAnchor
             .constraint(equalTo: view.leadingAnchor,
                         constant: 16.0).isActive = true
@@ -65,26 +65,16 @@ class ViewController: UIViewController {
         let details = """
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
         """
+        let imageurl = "https://images.pexels.com/photos/104750/pexels-photo-104750.jpeg?auto=compress&cs=tinysrgb&h=350"
+        
+        guard let url = URL(string: imageurl) else {
+            preconditionFailure("Image URL can't be created")
+        }
         
         let beach = Beach(name: "Lorem ipsum dolor sit amet",
                           details: details,
-                          imageURL: imageURLFromBundle())
+                          imageURL: url)
         return beach
     }
     
-}
-
-extension ViewController {
-    private class ClassBundle {}
-    
-     func imageURLFromBundle(
-        name: String = "beach",
-        withExtension: String = "jpg") -> URL {
-        guard let url = Bundle(for: ClassBundle.self)
-            .url(forResource: name, withExtension: withExtension) else {
-                preconditionFailure("Couldn't load \(name) image from resources")
-        }
-        
-        return url
-    }
 }
