@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46388CA1209FFC1A009201DA /* ViewControllerSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46388CA0209FFC1A009201DA /* ViewControllerSnapshotTests.swift */; };
 		5A255A757814C249FEEAC7C0 /* Pods_SnapshotTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C5DDF642777AB9E418FE2A /* Pods_SnapshotTesting.framework */; };
 		7728AAF4BED63697C561C64F /* Pods_Snapshot_TestingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A0B7B15CA8E24069160BA7 /* Pods_Snapshot_TestingTests.framework */; };
 		7855B3F6A804D58F9BF83A53 /* Pods_SnapshotTestingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E11778E8613BC230BC7D2516 /* Pods_SnapshotTestingTests.framework */; };
@@ -19,7 +20,6 @@
 		F50B92682096B5F5007E2B56 /* BeachParsingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B92672096B5F5007E2B56 /* BeachParsingTests.swift */; };
 		F50B92732096B676007E2B56 /* BeachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B92722096B676007E2B56 /* BeachView.swift */; };
 		F50B92752096B7C9007E2B56 /* Beach.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B92742096B7C9007E2B56 /* Beach.swift */; };
-		F50B927F2096BC3E007E2B56 /* SnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B927E2096BC3E007E2B56 /* SnapshotTests.swift */; };
 		F50B92882096C010007E2B56 /* beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F50B92872096C010007E2B56 /* beach.jpg */; };
 		F50B928D2096C1B3007E2B56 /* AJSnapshotTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B92892096C06F007E2B56 /* AJSnapshotTestCase.swift */; };
 		F50B928E2096C1CF007E2B56 /* BeachViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50B928B2096C0CF007E2B56 /* BeachViewSnapshotTests.swift */; };
@@ -51,6 +51,7 @@
 		147B0FCD67A4C467D5EE9DED /* Pods-Snapshot TestingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapshot TestingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snapshot TestingTests/Pods-Snapshot TestingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		394968E4DA990F0324DA0E75 /* Pods-SnapshotTestingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTestingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapshotTestingTests/Pods-SnapshotTestingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		44AFD7B1B9F5E13B6B2FD885 /* Pods-SnapshotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapshotTests/Pods-SnapshotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46388CA0209FFC1A009201DA /* ViewControllerSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSnapshotTests.swift; sourceTree = "<group>"; };
 		60A0B7B15CA8E24069160BA7 /* Pods_Snapshot_TestingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapshot_TestingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C5DDF642777AB9E418FE2A /* Pods_SnapshotTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapshotTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		874E677071ADF5A14ACABAEC /* Pods-SnapshotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapshotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapshotTests/Pods-SnapshotTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -72,7 +73,6 @@
 		F50B92722096B676007E2B56 /* BeachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeachView.swift; sourceTree = "<group>"; };
 		F50B92742096B7C9007E2B56 /* Beach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beach.swift; sourceTree = "<group>"; };
 		F50B927C2096BC3E007E2B56 /* SnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F50B927E2096BC3E007E2B56 /* SnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotTests.swift; sourceTree = "<group>"; };
 		F50B92802096BC3E007E2B56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F50B92872096C010007E2B56 /* beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beach.jpg; sourceTree = "<group>"; };
 		F50B92892096C06F007E2B56 /* AJSnapshotTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AJSnapshotTestCase.swift; sourceTree = "<group>"; };
@@ -195,10 +195,10 @@
 				F50B92912096C78B007E2B56 /* Resources */,
 				F50B92892096C06F007E2B56 /* AJSnapshotTestCase.swift */,
 				F50B928B2096C0CF007E2B56 /* BeachViewSnapshotTests.swift */,
-				F50B927E2096BC3E007E2B56 /* SnapshotTests.swift */,
 				F50B92802096BC3E007E2B56 /* Info.plist */,
 				F50B928F2096C367007E2B56 /* Beach+SnapshotTestData.swift */,
 				F50B9296209AA2D9007E2B56 /* Device.swift */,
+				46388CA0209FFC1A009201DA /* ViewControllerSnapshotTests.swift */,
 			);
 			path = SnapshotTests;
 			sourceTree = "<group>";
@@ -532,8 +532,8 @@
 			files = (
 				F50B928E2096C1CF007E2B56 /* BeachViewSnapshotTests.swift in Sources */,
 				F50B928D2096C1B3007E2B56 /* AJSnapshotTestCase.swift in Sources */,
-				F50B927F2096BC3E007E2B56 /* SnapshotTests.swift in Sources */,
 				F50B92902096C367007E2B56 /* Beach+SnapshotTestData.swift in Sources */,
+				46388CA1209FFC1A009201DA /* ViewControllerSnapshotTests.swift in Sources */,
 				F50B9297209AA2D9007E2B56 /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

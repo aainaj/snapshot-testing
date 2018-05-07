@@ -35,24 +35,6 @@ class BeachViewSnapshotTests: AJSnapshotTestCase {
         makeSnapshot(for: frame, with: testData)
     }
     
-    func testControllerIsShowingCorrectlyOniPhone6Devices() {
-        let controller = ViewController()
-        controller.view.frame = CGRect(origin: origin, size: Device.iPhone6.size())
-        verify(view: controller.view)
-    }
-    
-    func testBlurEffectOnController() {
-        let controller = ViewController()
-        controller.view.frame = CGRect(origin: origin, size: Device.iPhone6.size())
-        
-        let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.light)
-        
-        let blurView = UIVisualEffectView(effect: blurEffect)
-        blurView.frame = controller.view.frame
-        controller.view.addSubview(blurView)
-        verify(view: controller.view)
-    }
-    
     private func makeSnapshot(for frame: CGRect, with testData: Beach = Beach.testDataFromBundle()) {
         let containerView = UIView()
         containerView.frame = frame
